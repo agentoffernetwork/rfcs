@@ -49,6 +49,13 @@ When in doubt, open an issue first and describe whether the change affects wire-
 
 ## How to Submit an RFC
 
+If you are integrating an Agent or Partner rather than proposing a protocol
+change, start with the canonical
+[Agent quickstart](https://github.com/agentoffernetwork/protocol/blob/main/v0.3/quickstarts/agent.md)
+or
+[Partner quickstart](https://github.com/agentoffernetwork/protocol/blob/main/v0.3/quickstarts/partner.md).
+This repository governs semantic changes to those public contracts.
+
 1. Fork this repository
 2. Copy [`templates/rfc-template.md`](templates/rfc-template.md) to `rfcs/RFC-NNNN-short-title.md`
 3. Fill in the template sections: Summary, Problem, Proposal, Compatibility Impact, Alternatives, Rollout
@@ -76,27 +83,35 @@ Draft  -->  Under Review  -->  Accepted  -->  Implemented
                            -->  Deferred
 ```
 
-The governance process already exists even though the RFC corpus is still empty. In other
+The governance process is live and the public RFC corpus is intentionally small. In other
 words: **the path is available now, while the public proposal history is still young**.
+
+## Current Governance Status
+
+- This repository is the canonical path for breaking changes and new protocol features.
+- Decision status is durable: an accepted RFC remains accepted after the
+  contract it changed stops being the new-integration default.
+- RFC-0002 and RFC-0003 remain the accepted v0.2 decisions, while v0.2 is now
+  an explicit compatibility contract rather than the current integration path.
+- Protocol v0.3 is the adopted, stable default for new integrations. Its
+  adoption is grandfathered from the existing public contract-governance
+  registry because it predates the public RFC workflow becoming a required
+  gate; it is not represented by an invented retroactive RFC.
+- The public RFC index is intentionally small because AgentOffer Protocol is still early.
+- Editorial fixes, broken links, and non-semantic readability improvements should go directly to PRs.
 
 ## RFC Index
 
 | RFC | Title | Status |
 |-----|-------|--------|
-| [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted / stable |
-| [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted / stable |
+| [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted / implemented; v0.2 compatibility |
+| [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted / implemented; v0.2 compatibility |
 | [RFC-0001](./rfcs/RFC-0001-conversion-goals-v0.2-draft.md) | Conversion Goals v0.2 Draft | Historical / superseded |
-
-## Current Governance Status
-
-- This repository is the canonical path for breaking changes and new protocol features.
-- The public RFC index is intentionally small because AgentOffer Protocol is still early.
-- Editorial fixes, broken links, and non-semantic readability improvements should go directly to PRs.
 
 ## Status
 
-- **Governance posture:** `Live, early-stage public beta`
-- **Adoption note:** The process is ready for use even though the public RFC index is still empty.
+- **Governance posture:** `Live`
+- **Current contract:** [Protocol v0.3](https://github.com/agentoffernetwork/protocol/tree/main/v0.3)
 
 ## Template
 
