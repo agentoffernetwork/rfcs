@@ -1,8 +1,13 @@
 # RFC-0003: Offer v0.2 Card Display Fields
 
-**Status:** Accepted / stable
+**Decision status:** Accepted / implemented
 **Date:** 2026-07-15
 **Contract:** Offer v0.2
+**Current applicability:** Explicit v0.2 compatibility; superseded by adopted
+v0.3 for new integrations
+
+> This RFC remains the durable accepted decision for v0.2 card display fields.
+> It is not the current new-integration contract.
 
 ## Summary
 

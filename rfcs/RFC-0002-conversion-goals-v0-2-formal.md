@@ -1,8 +1,15 @@
 # RFC-0002: Conversion Goals v0.2 Formal Contract
 
-**Status:** Accepted · formal · stable source  
-**Date:** 2026-07-10  
-**Runtime:** not available before SVC-PLATFORM WS-15-S4
+**Decision status:** Accepted · implemented
+**Date:** 2026-07-10
+**Contract:** Offer v0.2
+**Current applicability:** Explicit v0.2 compatibility; superseded by adopted
+v0.3 for new integrations
+**Runtime at decision time:** Not available before SVC-PLATFORM WS-15-S4
+**Current runtime posture:** Deployment-owned
+
+> This RFC is the durable decision record for the v0.2 conversion-goal model.
+> Its accepted status does not make v0.2 the current new-integration contract.
 
 ## Summary
 
@@ -14,18 +21,21 @@ display fields.
 
 ## Proposal
 
-Offer v0.2 fixes `version` to `"2.0"`, requires one or more goals, and keeps
-all v0.1 fields not listed in the formal difference set. Each goal is an event
-with closed CPA or CPS pricing and optional advisory description. Event names
-are exact-string unique. The `/v1/` HTTP shell remains; the
+Offer v0.2 fixes `version` to `"2.0"`, requires one or more goals, removes the
+legacy top-level `bid`, and removes `conversion_rule.accepted_types`. Each goal
+is an event with closed CPA or CPS pricing and optional advisory description.
+Event names are exact-string unique. The `/v1/` HTTP shell remains; the
 `AON-Protocol-Version` header selects the complete payload contract.
 
 ## Compatibility
 
-Omitted or explicit `0.1` resolves to v0.1. Explicit `0.2` is unsupported until
-the S4 runtime gate passes; unknown versions fail without downgrade. Existing
-v0.1 Schema and fixtures remain unchanged. Draft assets are historical and
-superseded, not primary integration sources.
+Omitted or explicit `0.2` selects the v0.2 contract and the response echoes
+`AON-Protocol-Version: 0.2`. Explicit `0.1` and unknown versions fail closed
+without downgrade. The `/v1/` path is an HTTP shell and does not select v0.1.
+Runtime support remains `not_available` until the S4 runtime gate passes; that
+deployment state does not change the current source-contract selection rule.
+Existing v0.1 Schema and fixtures are historical. Draft assets are superseded,
+not primary integration sources.
 
 ## Migration
 
@@ -39,3 +49,6 @@ work, not public fields of this contract.
 Accepted as a stable source artifact in PROTO. Downstream source-follow and
 runtime-follow states are tracked in `contracts.json`; S4 is the sole gate for
 changing runtime support to supported.
+
+Revision note: the 2026-07-27 canonical-baseline review aligned this RFC with
+the final v0.2 version-selection, no-`bid`, and runtime-boundary decisions.
