@@ -38,7 +38,7 @@ An RFC (Request for Comments) is a design proposal for a change that affects the
 
 ## RFC Lifecycle
 
-```
+```text
 Draft  -->  Under Review  -->  Accepted  -->  Implemented
                            -->  Rejected
                            -->  Deferred
