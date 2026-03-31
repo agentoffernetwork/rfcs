@@ -1,0 +1,47 @@
+name: Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdown-lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            **/*.md
+            !node_modules/**
+
+  rfc-template-check:
+    name: RFC Template Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify RFC template exists
+        run: |
+          if [ -f templates/rfc-template.md ]; then
+            echo "RFC template exists"
+          else
+            echo "ERROR: templates/rfc-template.md is missing"
+            exit 1
+          fi
+
+      - name: Check RFC template has required sections
+        run: |
+          template="templates/rfc-template.md"
+          for section in "Summary" "Problem" "Proposal" "Compatibility" "Alternatives" "Rollout"; do
+            if grep -qi "$section" "$template"; then
+              echo "Found section: $section"
+            else
+              echo "WARNING: Missing section '$section' in RFC template"
+            fi
+          done

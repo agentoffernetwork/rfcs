@@ -5,6 +5,18 @@ title: "[bug] "
 labels: bug
 ---
 
-## Problem
+## Summary
 
-Describe the issue with the RFC process or repository structure.
+Describe the issue with the RFC process, template, or repository structure.
+
+## Affected File
+
+Which file or process is affected? (e.g., `templates/rfc-template.md`)
+
+## Expected Behavior
+
+What should happen instead?
+
+## Steps to Reproduce
+
+How can maintainers verify this issue?
