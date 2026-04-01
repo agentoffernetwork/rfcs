@@ -38,10 +38,13 @@ jobs:
       - name: Check RFC template has required sections
         run: |
           template="templates/rfc-template.md"
-          for section in "Summary" "Problem" "Proposal" "Compatibility" "Alternatives" "Rollout"; do
-            if grep -qi "$section" "$template"; then
-              echo "Found section: $section"
+          failed=0
+          for section in "## Summary" "## Problem" "## Proposal" "## Compatibility Impact" "## Alternatives Considered" "## Rollout"; do
+            if grep -q "$section" "$template"; then
+              echo "OK: $section"
             else
-              echo "WARNING: Missing section '$section' in RFC template"
+              echo "FAIL: Missing section '$section' in RFC template"
+              failed=1
             fi
           done
+          exit $failed

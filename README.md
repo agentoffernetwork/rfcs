@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/license-CC--BY--4.0-blue.svg" alt="License" /></a>
   <a href="https://github.com/agentoffernetwork/rfcs/issues"><img src="https://img.shields.io/github/issues/agentoffernetwork/rfcs.svg" alt="Issues" /></a>
+  <a href="https://github.com/agentoffernetwork/rfcs/actions/workflows/lint.yml"><img src="https://github.com/agentoffernetwork/rfcs/actions/workflows/lint.yml/badge.svg" alt="Lint" /></a>
 </p>
 
 ---
