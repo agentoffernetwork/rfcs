@@ -45,11 +45,25 @@ Draft  -->  Under Review  -->  Accepted  -->  Implemented
                            -->  Deferred
 ```
 
+The governance process already exists even though the RFC corpus is still empty. In other
+words: **the mechanism is live, the backlog is just young**.
+
 ## RFC Index
 
 | RFC | Title | Status |
 |-----|-------|--------|
 | -- | No RFCs yet. Be the first! | -- |
+
+## Current Governance Status
+
+- The RFC repository is active as the canonical path for breaking changes and new protocol features.
+- The lack of merged RFCs today reflects the early stage of the ecosystem, not the absence of a review process.
+- Until the first public RFCs arrive, editorial fixes and non-semantic clarifications should continue to go straight to PRs.
+
+## Status
+
+- **Governance posture:** `Live, early-stage public beta`
+- **Adoption note:** The process is ready for use even though the public RFC index is still empty.
 
 ## Template
 
