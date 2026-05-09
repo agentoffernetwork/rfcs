@@ -28,6 +28,23 @@ An RFC (Request for Comments) is a design proposal for a change that affects the
 | Typo fixes and editorial improvements | No -- open a PR directly |
 | Clarity improvements (no semantic change) | No -- open a PR directly |
 
+## PR or RFC?
+
+Use this shortcut before changing public protocol content:
+
+| Change type | Open a direct PR? | Open an RFC first? |
+|-------------|-------------------|--------------------|
+| Typo, grammar, broken link, heading cleanup | Yes | No |
+| Better examples using existing fields | Yes | No |
+| More readable wording with no semantic change | Yes | No |
+| Reorganizing README/spec navigation | Yes | No |
+| New field, object, enum value, or identifier semantics | No | Yes |
+| Renaming, removing, or deprecating an existing field | No | Yes |
+| Changing compatibility, lifecycle, or governance rules | No | Yes |
+| Changing schema validation behavior | No | Yes |
+
+When in doubt, open an issue first and describe whether the change affects wire-level behavior. Maintainers can help route it to a direct PR or RFC.
+
 ## How to Submit an RFC
 
 1. Fork this repository
@@ -36,6 +53,18 @@ An RFC (Request for Comments) is a design proposal for a change that affects the
 4. Open a pull request with the title `RFC: <short title>`
 5. Engage in discussion on the PR
 6. Maintainers will label the RFC as `accepted`, `rejected`, or `deferred`
+
+## Recommended Change Order
+
+For accepted semantic changes, update public surfaces in this order:
+
+1. RFC accepted.
+2. Protocol spec updated.
+3. JSON Schema and TypeScript types updated.
+4. Examples updated.
+5. Docs, SDKs, websites, and OpenAPI surfaces follow the updated source reference.
+
+Pure documentation readability changes can go directly to the relevant repository PR and do not need this full sequence.
 
 ## RFC Lifecycle
 
