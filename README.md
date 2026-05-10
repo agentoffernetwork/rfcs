@@ -15,7 +15,9 @@
 
 ## What Is an RFC?
 
-An RFC (Request for Comments) is a design proposal for a change that affects the AgentOffer Protocol contract. RFCs ensure that breaking changes, new protocol features, and governance updates are discussed openly before implementation.
+An RFC (Request for Comments) is a lightweight public proposal for a change that affects the AgentOffer Protocol contract.
+
+Use an RFC when a change would alter wire-level behavior, field semantics, compatibility, or governance. Use a direct PR for wording, examples, links, and readability improvements that do not change the contract.
 
 ## When to Open an RFC
 
@@ -75,7 +77,7 @@ Draft  -->  Under Review  -->  Accepted  -->  Implemented
 ```
 
 The governance process already exists even though the RFC corpus is still empty. In other
-words: **the mechanism is live, the backlog is just young**.
+words: **the path is available now, while the public proposal history is still young**.
 
 ## RFC Index
 
@@ -85,9 +87,9 @@ words: **the mechanism is live, the backlog is just young**.
 
 ## Current Governance Status
 
-- The RFC repository is active as the canonical path for breaking changes and new protocol features.
-- The lack of merged RFCs today reflects the early stage of the ecosystem, not the absence of a review process.
-- Until the first public RFCs arrive, editorial fixes and non-semantic clarifications should continue to go straight to PRs.
+- This repository is the canonical path for breaking changes and new protocol features.
+- The public RFC index is intentionally small because AgentOffer Protocol is still early.
+- Editorial fixes, broken links, and non-semantic readability improvements should go directly to PRs.
 
 ## Status
 
