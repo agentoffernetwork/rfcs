@@ -1,7 +1,7 @@
 # RFC-0003: Offer v0.2 Card Display Fields
 
-**Status:** Accepted / stable  
-**Date:** 2026-07-15  
+**Status:** Accepted / stable
+**Date:** 2026-07-15
 **Contract:** Offer v0.2
 
 ## Summary
