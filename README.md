@@ -83,7 +83,9 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
-| -- | No RFCs yet. Be the first! | -- |
+| [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted / stable |
+| [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted / stable |
+| [RFC-0001](./rfcs/RFC-0001-conversion-goals-v0.2-draft.md) | Conversion Goals v0.2 Draft | Historical / superseded |
 
 ## Current Governance Status
 
