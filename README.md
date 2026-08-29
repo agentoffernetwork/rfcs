@@ -51,9 +51,9 @@ When in doubt, open an issue first and describe whether the change affects wire-
 
 If you are integrating an Agent or Partner rather than proposing a protocol
 change, start with the canonical
-[Agent quickstart](https://github.com/agentoffernetwork/protocol/blob/main/v0.3/quickstarts/agent.md)
+[Agent quickstart](https://github.com/agentoffernetwork/protocol/blob/main/v1.0/quickstarts/agent.md)
 or
-[Partner quickstart](https://github.com/agentoffernetwork/protocol/blob/main/v0.3/quickstarts/partner.md).
+[Partner quickstart](https://github.com/agentoffernetwork/protocol/blob/main/v1.0/quickstarts/partner.md).
 This repository governs semantic changes to those public contracts.
 
 1. Fork this repository
@@ -91,12 +91,11 @@ words: **the path is available now, while the public proposal history is still y
 - This repository is the canonical path for breaking changes and new protocol features.
 - Decision status is durable: an accepted RFC remains accepted after the
   contract it changed stops being the new-integration default.
-- RFC-0002 and RFC-0003 remain the accepted v0.2 decisions, while v0.2 is now
-  an explicit compatibility contract rather than the current integration path.
-- Protocol v0.3 is the adopted, stable default for new integrations. Its
-  adoption is grandfathered from the existing public contract-governance
-  registry because it predates the public RFC workflow becoming a required
-  gate; it is not represented by an invented retroactive RFC.
+- RFC-0002 and RFC-0003 remain durable historical decisions; they do not define
+  the current integration path.
+- Protocol v1.0 is the adopted, stable current contract for new integrations.
+  Its unchanged field and behavior semantics carry forward existing governed
+  decisions without inventing a retroactive RFC.
 - The public RFC index is intentionally small because AgentOffer Protocol is still early.
 - Editorial fixes, broken links, and non-semantic readability improvements should go directly to PRs.
 
@@ -104,14 +103,14 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
-| [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted / implemented; v0.2 compatibility |
-| [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted / implemented; v0.2 compatibility |
+| [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted historical decision; superseded by v1.0 |
+| [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted historical decision; superseded by v1.0 |
 | [RFC-0001](./rfcs/RFC-0001-conversion-goals-v0.2-draft.md) | Conversion Goals v0.2 Draft | Historical / superseded |
 
 ## Status
 
 - **Governance posture:** `Live`
-- **Current contract:** [Protocol v0.3](https://github.com/agentoffernetwork/protocol/tree/main/v0.3)
+- **Current contract:** [Protocol v1.0](https://github.com/agentoffernetwork/protocol/tree/main/v1.0)
 
 ## Template
 
