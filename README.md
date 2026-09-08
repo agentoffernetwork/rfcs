@@ -93,6 +93,8 @@ words: **the path is available now, while the public proposal history is still y
   contract it changed stops being the new-integration default.
 - RFC-0002 and RFC-0003 remain durable historical decisions; they do not define
   the current integration path.
+- RFC-0004 is the accepted and implemented decision for response-scoped Offer
+  display prices in the current v1.0 source contract.
 - Protocol v1.0 is the adopted, stable current contract for new integrations.
   Its unchanged field and behavior semantics carry forward existing governed
   decisions without inventing a retroactive RFC.
@@ -103,6 +105,7 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
+| [RFC-0004](./rfcs/RFC-0004-offer-display-price.md) | Offer Display Price | Accepted / implemented |
 | [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted historical decision; superseded by v1.0 |
 | [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted historical decision; superseded by v1.0 |
 | [RFC-0001](./rfcs/RFC-0001-conversion-goals-v0.2-draft.md) | Conversion Goals v0.2 Draft | Historical / superseded |
