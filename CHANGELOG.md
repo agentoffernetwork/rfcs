@@ -1,5 +1,12 @@
 # Changelog
 
+## Offer display price (2026-09-07)
+
+- Accepted and implemented RFC-0004 as the v1.0 source decision for one
+  response-scoped `commercial.display_price` presentation value.
+- Kept Query requests and the `1.0` selector unchanged, prohibited the field in
+  Partner/Provider supply, and retained the original price as fallback.
+
 ## Offer v0.2 card display fields (2026-07-15)
 
 - Accepted RFC-0003 as the stable source for optional card display fields in
