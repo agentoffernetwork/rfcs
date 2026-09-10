@@ -1,5 +1,13 @@
 # Changelog
 
+## Flight local schedule times (2026-09-10)
+
+- Accepted and implemented RFC-0005 as the v1.0 source decision for
+  airport-local Flight endpoint times and source-provided segment duration.
+- Replaced offset-bearing endpoint `at` with `local_at`, required positive
+  `duration_minutes`, and kept same-airport connection chronology without
+  cross-airport timezone inference.
+
 ## Offer display price (2026-09-07)
 
 - Accepted and implemented RFC-0004 as the v1.0 source decision for one
