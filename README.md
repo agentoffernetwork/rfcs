@@ -98,6 +98,9 @@ words: **the path is available now, while the public proposal history is still y
 - RFC-0005 is the accepted and implemented decision for Flight airport-local
   schedule times and source-provided segment duration in the current v1.0
   source contract.
+- RFC-0006 is the accepted decision for independent Query alternative Offers.
+  Protocol publication and service, SDK, and Agent rollout require separate
+  evidence; acceptance does not claim deployment support.
 - Protocol v1.0 is the adopted, stable current contract for new integrations.
   Its unchanged field and behavior semantics carry forward existing governed
   decisions without inventing a retroactive RFC.
@@ -108,6 +111,7 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
+| [RFC-0006](./rfcs/RFC-0006-query-alternative-offers.md) | Query Alternative Offers | Accepted |
 | [RFC-0005](./rfcs/RFC-0005-flight-local-schedule-times.md) | Flight Local Schedule Times | Accepted / implemented |
 | [RFC-0004](./rfcs/RFC-0004-offer-display-price.md) | Offer Display Price | Accepted / implemented |
 | [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted historical decision; superseded by v1.0 |
