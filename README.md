@@ -101,6 +101,8 @@ words: **the path is available now, while the public proposal history is still y
 - RFC-0006 is the accepted decision for independent Query alternative Offers.
   Protocol publication and service, SDK, and Agent rollout require separate
   evidence; acceptance does not claim deployment support.
+- RFC-0007 is accepted and implemented in canonical sources for typed Flight
+  Query. Publication and runtime capability require separate evidence.
 - Protocol v1.0 is the adopted, stable current contract for new integrations.
   Its unchanged field and behavior semantics carry forward existing governed
   decisions without inventing a retroactive RFC.
@@ -111,6 +113,7 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
+| [RFC-0007](./rfcs/RFC-0007-flight-query-profile.md) | Flight Query Profile | Accepted / implemented |
 | [RFC-0006](./rfcs/RFC-0006-query-alternative-offers.md) | Query Alternative Offers | Accepted |
 | [RFC-0005](./rfcs/RFC-0005-flight-local-schedule-times.md) | Flight Local Schedule Times | Accepted / implemented |
 | [RFC-0004](./rfcs/RFC-0004-offer-display-price.md) | Offer Display Price | Accepted / implemented |
