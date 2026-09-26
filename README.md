@@ -113,6 +113,7 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
+| [RFC-0008](./rfcs/RFC-0008-flight-display-names.md) | Flight Display Names | Accepted |
 | [RFC-0007](./rfcs/RFC-0007-flight-query-profile.md) | Flight Query Profile | Accepted / implemented |
 | [RFC-0006](./rfcs/RFC-0006-query-alternative-offers.md) | Query Alternative Offers | Accepted |
 | [RFC-0005](./rfcs/RFC-0005-flight-local-schedule-times.md) | Flight Local Schedule Times | Accepted / implemented |
