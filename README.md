@@ -113,6 +113,8 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
+| [RFC-0010](./rfcs/RFC-0010-query-constraint-filters.md) | Query Constraint Filters | Accepted |
+| [RFC-0009](./rfcs/RFC-0009-agent-webhook-click-application-net-amount.md) | Agent Conversion Webhook Click, Application, Placement and Net USD Amount | Accepted |
 | [RFC-0008](./rfcs/RFC-0008-flight-display-names.md) | Flight Display Names | Accepted |
 | [RFC-0007](./rfcs/RFC-0007-flight-query-profile.md) | Flight Query Profile | Accepted / implemented |
 | [RFC-0006](./rfcs/RFC-0006-query-alternative-offers.md) | Query Alternative Offers | Accepted |
