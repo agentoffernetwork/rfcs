@@ -1,5 +1,12 @@
 # Changelog
 
+## Query constraint filters (unreleased)
+
+- Accepted RFC-0010 for optional v1.0 `constraints.offer_types` and
+  `constraints.listing_source_names`, including explicit empty-array semantics.
+- Source contract and release admission preparation only; downstream support
+  and public publication require separate evidence.
+
 ## Flight local schedule times (2026-09-10)
 
 - Accepted and implemented RFC-0005 as the v1.0 source decision for
