@@ -103,6 +103,15 @@ words: **the path is available now, while the public proposal history is still y
   evidence; acceptance does not claim deployment support.
 - RFC-0007 is accepted and implemented in canonical sources for typed Flight
   Query. Publication and runtime capability require separate evidence.
+- RFC-0011 is accepted and implemented in candidate sources for optional Flight
+  source facts. Protected release, reader deployment and runtime activation
+  require separate evidence.
+- RFC-0012 is accepted and implemented in candidate sources for the `game`
+  supply profile carrying `downloads`. Protected release and producer activation
+  require separate evidence.
+- RFC-0013 is accepted and implemented in candidate sources for optional Flight
+  purchase display facts. Protected release, source coverage and runtime
+  activation require separate evidence.
 - Protocol v1.0 is the adopted, stable current contract for new integrations.
   Its unchanged field and behavior semantics carry forward existing governed
   decisions without inventing a retroactive RFC.
@@ -113,6 +122,9 @@ words: **the path is available now, while the public proposal history is still y
 
 | RFC | Title | Status |
 |-----|-------|--------|
+| [RFC-0013](./rfcs/RFC-0013-flight-purchase-display-facts.md) | Flight Purchase Display Facts | Accepted / implemented |
+| [RFC-0012](./rfcs/RFC-0012-game-supply-profile.md) | Game Supply Profile | Accepted / implemented |
+| [RFC-0011](./rfcs/RFC-0011-flight-source-facts.md) | Flight Source Facts and Stop Language | Accepted / implemented |
 | [RFC-0010](./rfcs/RFC-0010-query-constraint-filters.md) | Query Constraint Filters | Accepted |
 | [RFC-0009](./rfcs/RFC-0009-agent-webhook-click-application-net-amount.md) | Agent Conversion Webhook Click, Application, Placement and Net USD Amount | Accepted |
 | [RFC-0008](./rfcs/RFC-0008-flight-display-names.md) | Flight Display Names | Accepted |
