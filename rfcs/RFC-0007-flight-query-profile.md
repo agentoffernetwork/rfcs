@@ -50,10 +50,8 @@ price basis, tax or quote semantics. JSON Schema then pure semantic validation
 uses the complete paired request and independent trusted airport-city facts;
 it cannot prove real supplier calls, stock, source truth or booking guarantees.
 
-The [Ctrip mapping](https://github.com/agentoffernetwork/protocol/blob/main/v1.0/specs/flight-query-ctrip-mapping.md)
-records supplied historical tool evidence and its gaps, including absent
-traveler/multi-leg capabilities, preferred-cabin fallback, limited results,
-name-only stops and uncertain price scope. It does not certify a live adapter.
+Supplier-specific adapter mappings require their own evidence and capability
+checks; this RFC does not certify any live adapter.
 
 ## Compatibility Impact
 
