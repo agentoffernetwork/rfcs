@@ -36,8 +36,8 @@ lower bound (`1000000`); it must not round up, estimate, or combine counts from
 different sources. The value is descriptive content, not an AON endorsement or
 ranking signal.
 
-The semantic validator binds `game` to `hobbies_games_leisure.toys_games.games`
-and its descendants. Unlike `flight` and `hotel_rate`, `game` adds no
+RFC-0015 supersedes the original Games category binding: `game` is independent
+of the Offer category. Unlike `flight` and `hotel_rate`, `game` adds no
 `offer_type`, `action.consumer_action`, or commercial requirement.
 
 ## Compatibility Impact
