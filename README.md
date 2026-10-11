@@ -135,6 +135,8 @@ words: **the path is available now, while the public proposal history is still y
 | [RFC-0003](./rfcs/RFC-0003-offer-v0-2-card-display-fields.md) | Offer v0.2 Card Display Fields | Accepted historical decision; superseded by v1.0 |
 | [RFC-0002](./rfcs/RFC-0002-conversion-goals-v0-2-formal.md) | Conversion Goals v0.2 Formal Contract | Accepted historical decision; superseded by v1.0 |
 | [RFC-0001](./rfcs/RFC-0001-conversion-goals-v0.2-draft.md) | Conversion Goals v0.2 Draft | Historical / superseded |
+| [RFC-0014](./rfcs/RFC-0014-agent-earning-status-webhooks.md) | Agent Earning Status Webhooks | Accepted / implemented |
+| [RFC-0015](./rfcs/RFC-0015-profile-category-independence.md) | Offer Profile and Category Independence | Accepted / implemented |
 
 ## Status
 
