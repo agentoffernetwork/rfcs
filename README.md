@@ -112,6 +112,25 @@ words: **the path is available now, while the public proposal history is still y
 - RFC-0013 is accepted and implemented in candidate sources for optional Flight
   purchase display facts. Protected release, source coverage and runtime
   activation require separate evidence.
+- RFC-0016 is accepted and implemented in candidate sources for the Postback
+  GET binding, retirement of the Provider JSON lane and Goal conversion
+  reversal. Protected release and public RFC publication require separate
+  evidence.
+- RFC-0017 is accepted and implemented in candidate sources for optional
+  `sub_id` slots on Agent earning status webhook bodies (amends RFC-0014).
+  Protected release and public RFC publication require separate evidence.
+- RFC-0018 is accepted and implemented in candidate sources for the
+  AON-derived public `offer_info.min_age` and the Partner
+  `targeting[].eligibility.min_age` range of 1 through 120. Protected release,
+  reader deployment and producer activation require separate evidence.
+- RFC-0019 is accepted and implemented in candidate sources for the
+  read-only Offer Instance Lookup API (`POST /v1/offers/instances`). Query and
+  OfferInfo are unchanged. Deployment and public RFC publication require
+  separate evidence.
+- RFC-0020 is accepted and implemented in candidate sources for optional
+  `offer_instance_id` on Agent webhook bodies and the receiver rule to ignore
+  unrecognized members (amends RFC-0009 and RFC-0014). Protected release and
+  public RFC publication require separate evidence.
 - Protocol v1.0 is the adopted, stable current contract for new integrations.
   Its unchanged field and behavior semantics carry forward existing governed
   decisions without inventing a retroactive RFC.
