@@ -26,7 +26,7 @@ bytes are unchanged. All events use the same endpoint, headers, raw-body HMAC,
 
 | Event | Meaning |
 | --- | --- |
-| `earning_confirmed` | The associated Partner statement has been confirmed. |
+| `earning_confirmed` | The conversion has been confirmed (RFC-0021): acknowledged singly or with its monthly statement. |
 | `earning_available` | The earning has become available for payout. |
 | `earning_paid_out` | AON has paid out this earning in full; this does not certify receipt in the developer's bank account. This state is terminal: AON does not register further earning status events for it. |
 | `earning_rejected` | The earning was rejected by the merchant, reversed, or marked refunded in a review. |
