@@ -131,6 +131,11 @@ words: **the path is available now, while the public proposal history is still y
   `offer_instance_id` on Agent webhook bodies and the receiver rule to ignore
   unrecognized members (amends RFC-0009 and RFC-0014). Protected release and
   public RFC publication require separate evidence.
+- RFC-0021 is accepted and implemented in candidate sources for the Provider
+  postback `action=confirm`, staged conversion reversal (a late reversal opens a
+  dispute) and the redefinition of `earning_confirmed` as conversion confirmed
+  (amends RFC-0014 and RFC-0016). Protected release and public RFC publication
+  require separate evidence.
 - Protocol v1.0 is the adopted, stable current contract for new integrations.
   Its unchanged field and behavior semantics carry forward existing governed
   decisions without inventing a retroactive RFC.
